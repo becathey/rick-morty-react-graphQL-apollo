@@ -1,0 +1,15 @@
+.character-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+.character {
+    width: 10rem;
+}
+.character-image {
+    width: 100%;
+}
+.character-name {
+    font-size: 1rem;
+}
