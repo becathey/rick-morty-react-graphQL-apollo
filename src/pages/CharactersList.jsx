@@ -1,5 +1,5 @@
 import React from "react"
-import { useCharacters } from "../hooks/useCharacter"
+import { useCharacters } from "../hooks/useCharacters"
 import './CharactersList.css'
 
 export default function CharactersList() {
