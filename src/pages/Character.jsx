@@ -1,15 +1,17 @@
 import React from "react"
+import { useParams } from "react-router-dom"
 import { useCharacter } from "../hooks/useCharacter"
 import './Character.css'
 
 export default function Character() {
-    const {data, loading, error} = useCharacter(4)
+    const {id} = useParams()
+    const {data, loading, error} = useCharacter(id)
 
     if(error) return <h1>Oops! Something went wrong</h1>
     if(loading) return <h1>Loading ...</h1>
 
     return (
-        <div className="character">
+        <div className="character-container">
             <img src={data.character.image} width={350} height={350} />
             <div className="character-content">
                 <h1>{data.character.name}</h1>

@@ -6,6 +6,7 @@
 }
 .character {
     width: 10rem;
+    text-decoration: none;
 }
 .character-image {
     width: 100%;
