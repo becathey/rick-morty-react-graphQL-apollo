@@ -1,6 +1,6 @@
 # Rick and Morty Characters List
 
-This application consumes data from the Rick and Morty GraphQL API and displays images and names of the characters from the show, and lists the episodes each character appeared in. Built with React.js, GraphQL, and Apollo Client.
+This application consumes data from the Rick and Morty GraphQL API and displays images and names of the characters from the show, and lists the episodes each character appeared in. Built with React.js, GraphQL.js, and Apollo Client.
 
 ## Install Dependencies
 
